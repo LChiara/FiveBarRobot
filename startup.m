@@ -27,7 +27,7 @@ disp('Creating FBR RigidBody...');
 [fbrRigidBody, qInitRigidBody] = FBR.RigidBody.generateBody(bodyLengths, jointAngles);
 
 disp('Loading Busses...');
-load('busObjects.map');
+load('busObjects.mat');
 
 IsFBRInitialized = true;
 
